@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - Zizi's Portfolio</title>
+    <!-- Link to the CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body class="light-mode">
+    <div class="container">
+        <!-- Link to the JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <script src="script/script.js"></script>
+
+        <header class="light-mode">
+            <!-- row -->
+            <div class="row">
+                <!-- col -->
+                <div class="col-12">
+                    <div id="title">
+                        <h1 class="text-center my-3 text-uppercase text-primary">Zizi's Portfolio</h1>
+                    </div>
+                    <!-- nav -->
+                    <nav id="homepage-nav">
+                        <div class="col-12">
+                            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                <div class="container-fluid">
+                                    <div id="nav-title">
+                                        <p class="navbar-brand d-xl-none d-lg-none d-xl-block">Navbar</p>
+                                    </div>
+
+                                    <div class="d-flex">
+                                        <button id="darkModeToggle"
+                                            class="p-2 btn btn-primary ms-auto me-2">Mode</button>
+
+                                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#navbarSupportedContent"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">
+                                            <span class="navbar-toggler-icon"></span>
+                                        </button>
+                                    </div>
+
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page"
+                                                    href="index.html">Homepage</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="skills.html">Skills</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="workexperience.html">Work Experience</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="interests.html">Interests</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="form.html">Form</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </nav>
+                        </div>
+                    </nav>
+                    <!-- nav -->
+                </div>
+                <!-- col -->
+            </div>
+            <!-- row -->
+
+            <!-- row -->
+            <div class="row">
+                <div class="col-12">
+                    <!-- carousel -->
+                    <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner" id="carousel-text">
+                            <!-- photo 1 -->
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="media/profilebanner.jpg" class="d-block w-100" alt="profile banner">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Profile Banner 1</h5>
+                                </div>
+                            </div>
+                            <!-- photo 1 -->
+
+                            <!-- Photo 2 -->
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="media/profilebanner.jpg" class="d-block w-100" alt="profile banner">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Profile Banner 2</h5>
+                                </div>
+                            </div>
+                            <!-- Photo 2 -->
+
+                            <!-- Photo 3 -->
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <img src="media/profilebanner.jpg" class="d-block w-100" alt="profile banner">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Profile Banner 3</h5>
+                                </div>
+                            </div>
+                            <!-- Photo 3 -->
+                        </div>
+
+                        <!-- Carousel buttons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Mext</span>
+                        </button>
+                        <!-- Carousel buttons -->
+                    </div>
+                    <!-- carousel -->
+                </div>
+
+            </div>
+
+            <!-- introduction -->
+            <div id="homepage-content" class="p-3 my-2 border-bottom border-2 border-primary">
+                <article>
+                    <!-- row -->
+                    <div class="row">
+                        <!-- col -->
+                        <h2 class="mb-2" id="introduction"><cite>Introduction</cite></h2>
+                        <div class="quote-color col-12 col-md-12 col-lg-4 bg-primary rounded mb-3">
+                            <p class="lead text">
+                                <q class="quote-texture">Strive always to excel in virtue and truth.</q><br>
+                                <p class="quote-texture"><em>prophet Muhammad (peace be upon him)</em></p>
+                            </p>
+
+                        </div>
+                        <!-- col -->
+
+                        <!-- col -->
+                        <div class="col-12 col-md-6 col-lg-4 mb-3">
+                            <p class="lead">
+                                Hey, I am <em><strong>zizi</strong></em>, a visionary computer science student based in
+                                <em>Budapest</em>.
+                                This section serves as a gateway to my portfolio, offering you a glimpse into my
+                                background,
+                                experience, and aspirations.
+                            </p>
+                        </div>
+                        <!-- col -->
+
+                        <!-- col -->
+                        <div class="col-12 col-md-6 col-lg-4 mb-3">
+                            <p class="lead alert-warning"><strong>Please be aware</strong> that this is a
+                                <em>dynamic</em>
+                                representation of my journey.
+                            </p>
+                            <nav id="homepage-sections">
+                                <ol>
+                                    <li><a href="#education">Education</a></li>
+                                    <li><a href="#areaofemphasis">Area of Emphasis</a></li>
+                                    <li><a href="#honorsandawards">Honors & Awards</a></li>
+                                </ol>
+                            </nav>
+                        </div>
+                        <!-- col -->
+                    </div>
+                    <!-- row -->
+                </article>
+            </div>
+            <!-- introduction -->
+        </header>
+        <br>
+
+        <main id="content">
+            <article>
+                <div class="row">
+                    <h2 class="mb-2" id="education"><cite>Education</cite></h2>
+                    <div class="col-12 col-md-6 mb-3">
+                        <p>
+                            My academic journey has been an exciting one. At <em>Eötvös Loránd University</em>, I have
+                            had the
+                            chance to immerse myself in the realm of computer science. I am dedicated to my studies and
+                            continuously seek opportunities to expand my knowledge and skills in this dynamic field.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <figure>
+                            <img class="img-fluid rounded" src="media/elteik.jpg" alt="Faculty of Informatics at ELTE"
+                                width="300" height="200">
+                            <figcaption><em>Faculty of Informatics at ELTE</em></figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </article>
+            <hr>
+            <article>
+                <div class="row">
+                    <h2 class="mb-2" id="areaofemphasis"><cite>Area of Emphasis</cite></h2>
+                    <div class="col-12 col-md-6 mb-3">
+                        <p>
+                            I am particularly interested in getting into software engineering roles. I aim to work on
+                            tackling
+                            fundamental problems to improve the construction, design, and analysis of software.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p>Some topics that I find fascinating include:</p>
+                        <nav id="topics">
+                            <ul>
+                                <li>software reliability and security</li>
+                                <li>software performance</li>
+                                <li>interdisciplinary research</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </article>
+            <hr>
+            <article>
+                <div class="row">
+                    <h2 class="mb-2" id="honorsandawards"><cite>Honors & awards</cite></h2>
+                    <div class="col-12 mb-3">
+                        <p>I am humbled and grateful for the opportunities I have encountered on my learning and career
+                            path. These accomplishments reflect my journey of growth and development.</p><br>
+                        <aside>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped table-hover">
+                                    <caption>
+                                        <Strong class="help-texture">Honors & Awards datasheet</Strong>
+                                        <details>
+                                            <Summary class="help-texture">Help</Summary>
+                                            <p class="help-texture">In this table, you can find the following columns: Recognition, Issuer,
+                                                Date,
+                                                Description.</p>
+                                        </details>
+                                    </caption>
+
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Recognition</th>
+                                            <th scope="col">Issuer</th>
+                                            <th scope="col">Date</th>
+                                            <th scope="col">Description</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody class="table-group-divider">
+                                        <tr>
+                                            <td>Stipendium Hungaricum Scholarship</td>
+                                            <td>Tempus Public Foundation</td>
+                                            <td><time datetime="2022-07">July 2022</time></td>
+                                            <td><em>An awardee of a full study abroad scholarship for the 2022/2023
+                                                    academic
+                                                    year
+                                                    applicants</em></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Kennedy Lugar Youth Exchange and Study (KL-YES) Scholarship</td>
+                                            <td>U.S. Department of State</td>
+                                            <td><time datetime="2021-08">August 2021</time></td>
+                                            <td><em>An awardee of a full student exchange abroad scholarship program to
+                                                    the
+                                                    U.S. for 10
+                                                    months</em></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Merit-Based Semester Scholarship</td>
+                                            <td>SMAN Modal Bangsa Aceh</td>
+                                            <td><time datetime="2021-06">June 2021</time></td>
+                                            <td><em>Two times awardee of high school semester scholarship</em></td>
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </article>
+        </main>
+
+        <footer class="light-mode text-center mb-4">
+            <address>
+                <p>
+                    Author: Muhammad Al Farizi <a
+                        href="mailto:ziziyusrizal@gmail.com">ziziyusrizal@gmail.com</a><br>H-1093 Budapest
+                </p>
+            </address>
+        </footer>
+
+    </div>
+</body>
+
+</html>

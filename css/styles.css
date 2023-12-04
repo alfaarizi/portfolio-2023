@@ -1,0 +1,331 @@
+body,
+h1,
+h2,
+h3,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+header.light-mode {
+    background-color: white;
+    color: rgb(53,76,124);
+}
+
+header.light-mode p {
+    color: black;
+}
+
+
+header.light-mode .navbar {
+    background-color: #8b0000 !important;
+}
+
+header.light-mode .navbar-nav,
+header.light-mode .nav-link.active,
+header.light-mode .navbar-nav,
+header.light-mode .nav-link:hover {
+    color:  #c85a53 ;
+    /* Light salmon color on hover or when active */
+}
+
+header.light-mode .bg-primary {
+    background-color: #8b0000 !important;
+}
+
+header.light-mode #homepage-content.border-bottom,
+header.light-mode #skills-content.border-bottom,
+header.light-mode #workexperience-content.border-bottom,
+header.light-mode #interests-content.border-bottom,
+header.light-mode #form-content.border-bottom {
+    border-color: #8b0000 !important;
+}
+
+header.light-mode cite {
+    color: rgb(53,76,124);
+}
+
+body.light-mode {
+    background-image: url('../media/paperbg.jpg');
+	background-repeat: no-repeat;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+body.light-mode cite {
+    color: rgb(53,76,124);
+}
+
+
+body.light-mode #main h1,
+body.light-mode #main h2,
+body.light-mode #main h3,
+body.light-mode #main h4,
+body.light-mode #main h5,
+body.light-mode #main h6 {
+    color: #004080;
+}
+
+body.light-mode #title h1 {
+    color: #8b0000 !important;
+    background-color: white;
+}
+
+body.light-mode .quote-color {
+    color: white;
+}
+
+body.light-mode .container {
+    background-color: white;
+}
+
+body.light-mode .help-texture {
+    color: black;
+}
+
+body.light-mode .quote-texture {
+    color: white;
+}
+
+footer.light-mode {
+    background-color: #8b0000;
+}
+
+header.dark-mode {
+	background-color: #333;
+	color: rgb(103, 170, 192);
+}
+
+header.dark-mode p {
+	color: white;
+}
+
+header.dark-mode .navbar {
+    background-color:  #c85a53  !important;
+}
+
+header.dark-mode .navbar-nav,
+header.dark-mode .nav-link.active,
+header.dark-mode .navbar-nav,
+header.dark-mode .nav-link:hover {
+    color: #f5deb3;
+    /* Light salmon color on hover or when active */
+}
+
+header.dark-mode .bg-primary {
+    background-color:  #c85a53  !important;
+}
+
+header.dark-mode #homepage-content.border-bottom,
+header.dark-mode #skills-content.border-bottom,
+header.dark-mode #workexperience-content.border-bottom,
+header.dark-mode #interests-content.border-bottom,
+header.dark-mode #form-content.border-bottom {
+    border-color:  #c85a53  !important;
+}
+
+header.dark-mode cite {
+    color: white ;
+}
+
+
+body.dark-mode {
+    background-image: none;
+	background-color: rgb(19, 20, 23);
+	color: #fff;
+}
+
+body.dark-mode cite {
+    color: rgb(103, 170, 192);
+}
+
+body.dark-mode #main h1,
+body.dark-mode #main h2,
+body.dark-mode #main h3,
+body.dark-mode #main h4,
+body.dark-mode #main h5,
+body.dark-mode #main h6 {
+    color: rgb(103, 170, 192) !important;
+}
+
+body.dark-mode #title h1 {
+    color:  #c85a53  !important;
+    background-color: #333;
+}
+
+body.dark-mode .quote-color {
+    color: white;
+}
+
+body.dark-mode .container {
+    background-color: rgb(41, 41, 41);
+}
+
+body.dark-mode .help-texture {
+    color: #f5deb3;
+}
+
+body.dark-mode .quote-texture {
+    color: white;
+}
+
+footer.dark-mode {
+    background-color:  #c85a53 ;
+}
+
+#title h1 {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#nav-title p {
+    color: #f5f5f5;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.navbar button {
+    border-color: #d3d3d3;
+    background-color: #8b0000;
+    border-width: 2px;
+}
+
+.navbar-nav .nav-link {
+    color: #f5f5f5;
+    font-weight: bold;
+}
+
+.carousel {
+    margin-top: 10px;
+}
+
+#carousel-text h5 {
+	color: #f5f5f5;
+	/* White smoke color for carousel text */
+}
+
+.container {
+    border: 1px solid #ccc;
+}
+
+.card {
+    border: 1px solid #ddd;
+}
+
+header {
+    font-family: 'Arial';
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+main {
+    font-family: 'Arial';
+    font-size: 20px;
+    padding: 40px;
+}
+
+#main h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 35px;
+}
+
+footer {
+    color: #f5f5f5;
+    padding: 14px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+footer a {
+	color: #f5deb3;
+}
+
+form {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+#form-text h3 {
+    color: #333;
+    font-size: 24px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="url"],
+form textarea {
+    font-family: 'Arial';
+    color: #333;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    background-color: #8b0000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+	background-color:  #c85a53 ;
+}
+
+@media print {
+    #homepage-nav {
+        display: none;
+    }
+
+    #skills-nav {
+        display: none;
+    }
+
+    #experience-nav {
+        display: none;
+    }
+
+    #interests-nav {
+        display: none;
+    }
+
+    #form-nav {
+        display: none;
+    }
+
+    .accordion-collapse {
+        display: block !important;
+    }
+
+    .accordion-body {
+        padding: 10px;
+        border: 1px solid #ddd;
+        margin-top: 5px;
+    }
+
+    #accordionCode pre code,
+    #accordionWeb pre code {
+        font-size: 5.75px !important;
+    }
+}
