@@ -213,17 +213,17 @@ footer.dark-mode {
 }
 
 header {
-    font-family: 'Arial';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family:  Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 1.6;
 }
 
 main {
-    font-family: 'Arial';
+    font-family:  Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding: 40px;
 }
@@ -234,7 +234,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Arial';
+    font-family:  Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 35px;
 }
@@ -265,7 +265,7 @@ form input[type="email"],
 form input[type="tel"],
 form input[type="url"],
 form textarea {
-    font-family: 'Arial';
+    font-family: Arial, Helvetica, sans-serif;
     color: #333;
     width: 100%;
     border: 1px solid #ccc;
