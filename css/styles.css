@@ -168,15 +168,6 @@ body.dark-mode .quote-texture {
     color: white;
 }
 
-.carousel-inner {
-    height: 400px; 
-}
-
-.carousel-inner img {
-    object-fit: cover; 
-    height: 100%;
-}
-
 footer.dark-mode {
     background-color:  #c85a53 ;
 }
