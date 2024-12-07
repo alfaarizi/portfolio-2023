@@ -128,7 +128,6 @@ header.dark-mode cite {
     color: white ;
 }
 
-
 body.dark-mode {
     background-image: none;
 	background-color: rgb(19, 20, 23);
@@ -167,6 +166,15 @@ body.dark-mode .help-texture {
 
 body.dark-mode .quote-texture {
     color: white;
+}
+
+.carousel-inner {
+    height: 400px; 
+}
+
+.carousel-inner img {
+    object-fit: cover; 
+    height: 100%;
 }
 
 footer.dark-mode {
